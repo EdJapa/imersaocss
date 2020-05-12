@@ -1,0 +1,38 @@
+body {
+    background-image: url("https://ex2.com.br/wp-content/uploads/2018/04/Home-Four-Banner-Background-Image.png"); 
+    background-size:   auto 110vh;
+    font-family: Arial;
+    height: 110vh;
+  }
+  
+  .menu{
+    background-color: white;
+  }
+  
+  a {
+    color: teal;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .menu ul{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu li{
+    list-style: none;
+  }
+  
+  .site-subtitle,
+  .site-title{
+    color:whitesmoke;
+    text-align: center;
+  }
+  
+  .site-subtitle {
+    font-style: italic;
+  }
